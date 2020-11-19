@@ -1,0 +1,305 @@
+/*Estilos de la pagina*/
+hr{
+    border: 0;
+      clear:both;
+      display:block;
+      width: 100%;               
+      background-color:#FFF;
+      height: auto;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    section{
+    width: 100%;
+    padding-top: 20;
+    }
+.contenedorlogo hr{
+    border: none;
+    height: 3px;
+    background-color: #000; 
+    color: rgb(0, 0, 0);
+}
+    body{
+        background-color: #000;
+        font-family: 'Demode';
+        color: #fff;
+        width: 100%;
+        font-size: 60px;
+        max-width: 1920px;
+        min-width: 800px;
+    }
+    hr{
+        color:#fff;
+        border: 0;
+        clear:both;
+        display:block;
+        width: 100%;               
+        background-color:rgb(230, 230, 230) !important;
+        height: auto;
+    }
+    /*clases y estilos de logo y marca procreate*/
+    .contenedord{
+        background-color: rgb(204, 204, 204);
+        width: 30%;
+    }
+    .contenedord p{
+        text-align: center;
+        color: #000;
+        font-size: 15px;
+    }
+    .contenedord hr{
+        margin:0;
+        padding:0;
+        border:0;
+        background-color: #000;
+        font-family: Helvetica, sans-serif;
+        -webkit-text-size-adjust:none;
+    }
+    .contenedor-del-logo{
+        width: 60%;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+    .contenedor-procreate{
+        width: 80%;
+    }
+
+@media screen and (max-width: 700px){
+    .contenedord{
+        background-color: rgb(204, 204, 204);
+        width: 80%;
+    }
+    .contenedord p{
+        text-align: center;
+        color: #000;
+        font-size: 30px;
+    }
+}
+
+/*clases y estilos seccion imagenes*/
+.Contenedore{
+    width: 100%;
+}
+.flex-imagenes1{
+    display:flex;
+    justify-content: space-around;
+}
+.img2{
+    width:300px;
+    height:430px;
+    padding-top:30px ;
+}
+.img3{
+    width:300px;
+    height:430px;
+}
+.img1{
+    width:600px;
+    height:860px;
+}
+
+@media screen and (max-width: 700px){
+    .Contenedore{
+        width: 100%;
+    }
+    .flex-imagenes1{
+        display:flex;
+        flex-direction: column;
+    }
+    .img3{
+        padding-top: 30px;
+        width:300px;
+        height:430px;
+    }
+}
+/*clases y estilos de seccion blake*/
+.Contenedorf{
+    width: 100%;
+}
+.flex-texto-imagen1{
+    background-color: #eeddcb;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    column-gap: 200px;
+}
+.flex-texto-imagen1 img{
+    padding-left: 30px;
+}
+.texto{
+    color: #000;
+    font-size: 90;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 200;
+}
+.img4{
+    width: 100%;
+    height:1000px;
+}
+@media screen and (max-width: 700px){
+    .flex-texto-imagen1{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto{
+        color: #000;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 60px;
+    }
+    .img4{
+        width: 80%;
+        height:800px;
+    }
+}
+/*Seccion Shawn*/
+.Contenedorg{
+    width: 100%;
+}
+.flex-texto-imagen2{
+    background-color: #000;
+    display: grid;
+    margin-left: -160;
+    grid-template-columns: 60% 30%;
+}
+.texto2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Bell MT';
+    padding-top: 500px;
+    margin-left: -250;
+    font-size: 90;
+}
+.img5{
+    width: 80%;
+    height:1000px;
+}
+@media screen and (max-width: 700px){
+    .flex-texto-imagen2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .texto2{
+        color: #fff;
+        text-align: center;
+        font-family: 'Bell MT';
+        padding-top: 10px;
+        padding-left: 500;
+    }
+    .img5{
+        width: 80%;
+        height:900px;
+        padding-left: 170;
+    }
+}
+/*Seccion PRO CREATE*/
+.Contenedorh{
+    width: 100%;
+}
+.todo{
+    background-color: rgb(39, 39, 39);
+    padding-bottom: 20px;
+}
+.texto3{
+    padding-top: 15;
+    padding-bottom: 15;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bell MT';
+}
+.display-flex-imagen-texto3{
+    padding-left: 80;
+    display: flex;
+    flex-direction: column;
+}
+.que-es-contenedor{
+    padding:5%;
+    width: 60%;
+    font-family: 'Bell MT';
+    font-size: 20;
+    text-align: justify;
+    background-color: rgb(122, 122, 122);
+}
+
+.que-es-contenedor h2{
+    text-align: center;
+}
+.flex-procreate-mode{
+    display: flex;
+}
+.img6{
+    padding-bottom: 70;
+    width: 60%;
+    height: 700;
+}
+.img7{
+    width: 3000;
+    height: 1060;
+}
+.ipadpen{
+    visibility: hidden;
+}
+@media screen and (max-width: 700px){
+    .Contenedorh{
+        width: 100%;
+    }
+    .flex-procreate-mode{
+        padding-left: 100;
+        display: flex;
+        flex-direction: column;
+    }
+    .que-es-contenedor{
+        width: 80%;
+    }
+    .ipadpen{
+        visibility: visible;
+    }
+    .img6{
+        width: 80%;
+        height: 700;
+    }
+    .img7{
+        visibility: hidden;
+        display: none;
+    }
+    .img8{
+        margin-top: 60;
+        padding-left: 150;
+    }
+}
+/*footer*/
+.contenedori{
+    width: 100%;
+    height: 80;
+}
+.flex-de-redes{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-de-redes img{
+    width: 40px;
+}
+.flex-buscador{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20;
+}
+.buscar{
+    padding-left: 3;
+    width: 40;
+    height: 40;
+}
+.flex-buscador input{
+    font-size: 20;
+    font-family: 'arial';
+    color: #fff;
+    background-color: #000;
+    height: 30;
+    width: 400;
+}
+
