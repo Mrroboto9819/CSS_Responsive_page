@@ -1,4 +1,5 @@
-# CSS_Responsive_page
-Gracias a @mirandarodriguez.david por las imagenes para este trabajo.
+# responsive web design made in CSS
 
-La pagina se adapta a cuealquier celular, y a monitores de hasta 5k
+Thanks to @mirandarodriguez.david for the images for this work.
+
+The page adapts to any cell phone, and monitors up to 5k
