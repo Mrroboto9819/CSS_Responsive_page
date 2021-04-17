@@ -1,4 +1,4 @@
-# responsive web design made in CSS
+# Responsive web design made in CSS
 
 Thanks to @mirandarodriguez.david for the images for this work.
 
